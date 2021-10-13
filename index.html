@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Генератор случайных пользователей</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <p class="modul">Практическое задание по Модулю № 13</p>
+    <div class="container">
+        <div class="row game-card align-items-center">
+            <div class="col col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h2 class="card-title m-0 text-yellow">Окно генерации результатов</h2>
+                    </div>
+                    <div class="card-body bg-info text-black">
+                        <div class="text-center">
+                            <div class="col">
+                                <h2>Фамилия: <span id="surnameOutput">Генерация фамилии</span></h2>
+                                <h2>Имя: <span id="firstNameOutput">Генерация имени</span></h2>
+                                <h2>Отчество: <span id="patronymicOutput">Генерация отчества</span></h2>
+                                <h4> Профессия: <span id="professionOutput">Генерация профессии</span></h4>
+                                <h5>Дата рождения:
+                                    <span id="birthDayOutput">число</span>
+                                    <span id="birthMonthOutput">месяц</span>
+                                    <span id="birthYearOutput">год</span>
+                                </h5>
+                                <h5>Пол: <span id="genderOutput">Генерация пола</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-light">
+                        <div class="row">
+                            <div class="col-6">
+                                <button class="btn btn text-primary offset-md-3" id="generationBtn">
+                                    <h3>Сгенерировать</h3>
+                                </button>
+                            </div>
+                            <div class="col-6">
+                                <button class="btn btn text-danger offset-md-1" id="cleaningBtn">
+                                    <h3>Очистить</h3>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+    
+    </footer>
+    <script src="js/personGenerator.js"></script>
+    <script src="js/init.js"></script>
+</body>
+
+</html>
